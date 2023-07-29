@@ -1,8 +1,11 @@
+/* eslint-disable import/extensions */
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
 import Cookies from 'js-cookie'
 import {AiOutlineSearch} from 'react-icons/ai'
+// eslint-disable-next-line import/extensions
 import Header from '../Header'
+// eslint-disable-next-line import/no-unresolved
 import JobItem from '../JobItem'
 import './index.css'
 

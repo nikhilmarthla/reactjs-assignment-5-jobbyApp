@@ -157,14 +157,13 @@
   border-bottom-right-radius: 10px;
   width: 39px;
   cursor: pointer;
-  border: 2px solid grey;
-  border-left: none;
+  border: 0;
   background-color: #202020;
 }
 
 .search-icon {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .no-jobs-container {
@@ -190,10 +189,7 @@
   }
 
   .search-input {
-    width: 78%;
-  }
-  .search-button {
-    width: 78%;
+    width: 80%;
   }
 
   .jobs-container {

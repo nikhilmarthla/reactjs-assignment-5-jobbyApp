@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import {MdLocationOn} from 'react-icons/md'
@@ -5,6 +6,7 @@ import {AiFillStar} from 'react-icons/ai'
 import {BiLinkExternal} from 'react-icons/bi'
 import Loader from 'react-loader-spinner'
 import Header from '../Header'
+// eslint-disable-next-line import/extensions
 import SimilarJobs from '../SimilarJobs'
 import './index.css'
 
@@ -128,6 +130,8 @@ class AboutJobItem extends Component {
                   <div className="location-icon-location-container">
                     <MdLocationOn className="location-icon" />
                     <p className="location">{location}</p>
+                  </div>
+                  <div className="employment-type-icon-employment-type-container">
                     <p className="job-type">{employmentType}</p>
                   </div>
                 </div>
